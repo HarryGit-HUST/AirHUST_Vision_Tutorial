@@ -27,7 +27,8 @@ void change(cv::Mat &channel1, cv::Mat &channel2)
     cv::Mat roi_img1 = img(roi1); // 提取ROI（浅拷贝，修改同步到原图）
     cv::Mat channels1[3];
     cv::split(roi_img1, channels1);     // 拆分ROI通道
-    change(channels1[1], channels1[2]); // 交换G(1)和R(2)通道
+    change(channels1[2], channels1[1]);
+    change(channels1[0], channels1[1]); 
     cv::merge(channels1, 3, roi_img1);  // 合并通道，修复ROI
 
     // ===================== 3. 修复第二个ROI：交换B(0)和R(2)通道 =====================
