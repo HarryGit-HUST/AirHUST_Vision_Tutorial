@@ -1,11 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
-<<<<<<< HEAD
-project(lab1_1)
+project(lab2_2)
 
-=======
-project(lab0)
 set(OpenCV_DIR "D:/app/opencv/build/x64/vc16/lib/")  
->>>>>>> lab0_test_for_env
 find_package(OpenCV REQUIRED) 
 
 set(sc_executable_name ${PROJECT_NAME})

@@ -128,7 +128,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=lab0
+CMAKE_PROJECT_NAME:STATIC=lab2_2
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -212,6 +212,15 @@ lab0_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 lab0_SOURCE_DIR:STATIC=D:/program/airhust/AirHUST_Vision_Tutorial
+
+//Value Computed by CMake
+lab2_2_BINARY_DIR:STATIC=D:/program/airhust/AirHUST_Vision_Tutorial/build
+
+//Value Computed by CMake
+lab2_2_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+lab2_2_SOURCE_DIR:STATIC=D:/program/airhust/AirHUST_Vision_Tutorial
 
 
 ########################

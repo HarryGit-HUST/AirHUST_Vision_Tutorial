@@ -1,102 +1,52 @@
-<<<<<<< HEAD
-## lab1_1_read_write_images
-
-现在，请你使用opencv，进行以下基本操作:
 
 
+## lab1_2_from_pixels_to_images
 
+现在，你拥有从二值图、灰度图或彩色图像导出的像素值文本文件（.txt），请你根据这些像素值将图像恢复出来。
 
+**说明**：若恢复后的图像显示正常，即可证明像素数据与原图一致。
 
-1.将.**jpg/.png/.jpeg**的图像，读取为cv::Mat格式
+### 你可能要用到的工具函数原型：
 
-2.基于opencv，从cv::Mat展示这张图像
+如果你是 C++ 选手：
 
-3.(随便做点什么操作，也可以什么都不做) 后从cv::Mat保存该图像为.**jpg/.png/.jpeg**
+```cpp
+// 创建矩阵并指定尺寸、数据类型（如CV_8UC1、CV_8UC3等）
+cv::Mat::Mat(int rows, int cols, int type);
 
+// 从矩阵的某个通道或整体读取/写入数据，例如使用 Mat::at<type>(i,j)
+// 或通过循环与 .ptr<type>(row) 访问
 
-
-### 你可能要用到的工具函数原型:
-
-如果你是cpp选手:
-
-```c++
-//从文件读取
-cv::Mat cv::imread(const cv::String &filename, int flags = 1);
-
-//展示
+// 展示图像
 void cv::imshow(const cv::String &winname, cv::InputArray mat);
 
-//设定展示时间(delay为正，展示delay ms,非正，则展示到下一次按按键)
+// 等待按键或延时
 int cv::waitKey(int delay = 0);
 
-//写入到文件
+// 将恢复的图像保存到文件（用于验证）
 bool cv::imwrite(const cv::String &filename, cv::InputArray img);
-
-
-
 ```
 
-如果你是python选手:
+如果你是 Python 选手：
 
 ```python
+# 根据文本中的尺寸与通道信息，使用 np.zeros 或 np.array 创建矩阵
+np.zeros((height, width, channels), dtype=np.uint8)
 
-(function) def imread(
-    filename: str,
-    flags: int = ...
-) -> MatLike
+# 逐行或整体从txt读取像素值并赋值给矩阵对应位置
 
+# 展示图像
+cv2.imshow(winname: str, mat: MatLike) -> None
 
+# 等待按键或延时
+cv2.waitKey(delay: int = ...) -> int
 
-(function) def imshow(
-    winname: str,
-    mat: MatLike
-) -> None
-
-(function) def waitKey(delay: int = ...) -> int
-
-(function) def imwrite(
-    filename: str,
-    img: MatLike,
-    params: Sequence[int] = ...
-) -> bool
-
-
-
+# 将恢复的图像保存到文件（用于验证）
+cv2.imwrite(filename: str, img: MatLike, params: Sequence[int] = ...) -> bool
 ```
 
 ## 实验完毕后，记得提交修改（命令行中-m后的字符串可自行确定），以供检查：
 
 ```bash
-git commit -a -m "my work on lab1_1 is done."
+git commit -a -m "my work on lab1_2 is done."
 ```
-=======
-## lab0_test_for_env
-
-
-这个用来测试你的环境是否正常。
-如果你是在一个python虚拟环境下安装的opencv,记得激活它:
-
-```bash
-conda activate <your_env_name>
-```
-
-如果你是python选手，进入scripts目录并启动test.py:
-```bash
-# linux环境
-cd scripts
-python test.py
-```
-
-如果你是c++选手，创建build目录，完成构建后启动可执行码:
-```bash
-# linux环境
-mkdir build
-cd build
-cmake ..
-make
-./lab0
-```
-
-如果你成功地配置了环境，程序会弹出一张欧阳老师的帅照。
-
->>>>>>> lab0_test_for_env
