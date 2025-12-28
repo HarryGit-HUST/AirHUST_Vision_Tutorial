@@ -3,6 +3,7 @@ import os
 
 # 读取图片（工作目录是上级目录，需指定scripts子目录）
 img = cv2.imread("scripts/test.jpg")
+img2 = cv2.imread("../data/hesiqi.png")
 
 # 验证读取结果
 if img is None:
