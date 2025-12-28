@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/program/airhust/AirHUST_Vision_Tutorial/build",
+  "command": "C:\\PROGRA~2\\MICROS~4\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -ID:\\program\\airhust\\AirHUST_Vision_Tutorial\\include -external:ID:\\app\\opencv\\build\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\lab0.dir\\src\\main.cpp.obj /FdCMakeFiles\\lab0.dir\\ /FS -c D:\\program\\airhust\\AirHUST_Vision_Tutorial\\src\\main.cpp",
+  "file": "D:/program/airhust/AirHUST_Vision_Tutorial/src/main.cpp",
+  "output": "D:/program/airhust/AirHUST_Vision_Tutorial/build/CMakeFiles/lab0.dir/src/main.cpp.obj"
+}
+]
