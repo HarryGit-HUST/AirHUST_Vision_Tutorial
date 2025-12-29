@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(prj_name)
-
+project(lab0)
 find_package(OpenCV REQUIRED) 
 
 set(sc_executable_name ${PROJECT_NAME})
