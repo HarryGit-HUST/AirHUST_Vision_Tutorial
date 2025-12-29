@@ -1537,8 +1537,13 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
+<<<<<<< HEAD
       source: "D:/program/airhust/AirHUST_Vision_Tutorial/build/CMakeFiles/CMakeScratch/TryCompile-4prrzb"
       binary: "D:/program/airhust/AirHUST_Vision_Tutorial/build/CMakeFiles/CMakeScratch/TryCompile-4prrzb"
+=======
+      source: "D:/program/airhust/AirHUST_Vision_Tutorial/build/CMakeFiles/CMakeScratch/TryCompile-gkscjh"
+      binary: "D:/program/airhust/AirHUST_Vision_Tutorial/build/CMakeFiles/CMakeScratch/TryCompile-gkscjh"
+>>>>>>> lab1_4_spin_around
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1547,11 +1552,19 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
+<<<<<<< HEAD
         Change Dir: 'D:/program/airhust/AirHUST_Vision_Tutorial/build/CMakeFiles/CMakeScratch/TryCompile-4prrzb'
         
         Run Build Command(s): D:/mingw64/bin/ninja.exe -v cmTC_de312
         [1/2] C:\\PROGRA~2\\MICROS~4\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_de312.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_de312.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
         [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_de312.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~4\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_de312.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_de312.exe /implib:cmTC_de312.lib /pdb:cmTC_de312.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+=======
+        Change Dir: 'D:/program/airhust/AirHUST_Vision_Tutorial/build/CMakeFiles/CMakeScratch/TryCompile-gkscjh'
+        
+        Run Build Command(s): D:/mingw64/bin/ninja.exe -v cmTC_dc02e
+        [1/2] C:\\PROGRA~2\\MICROS~4\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_dc02e.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_dc02e.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_dc02e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~4\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_dc02e.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_dc02e.exe /implib:cmTC_dc02e.lib /pdb:cmTC_dc02e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+>>>>>>> lab1_4_spin_around
         
       exitCode: 0
   -
@@ -1591,8 +1604,13 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
+<<<<<<< HEAD
       source: "D:/program/airhust/AirHUST_Vision_Tutorial/build/CMakeFiles/CMakeScratch/TryCompile-8p3fxa"
       binary: "D:/program/airhust/AirHUST_Vision_Tutorial/build/CMakeFiles/CMakeScratch/TryCompile-8p3fxa"
+=======
+      source: "D:/program/airhust/AirHUST_Vision_Tutorial/build/CMakeFiles/CMakeScratch/TryCompile-xl7otj"
+      binary: "D:/program/airhust/AirHUST_Vision_Tutorial/build/CMakeFiles/CMakeScratch/TryCompile-xl7otj"
+>>>>>>> lab1_4_spin_around
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1602,11 +1620,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
+<<<<<<< HEAD
         Change Dir: 'D:/program/airhust/AirHUST_Vision_Tutorial/build/CMakeFiles/CMakeScratch/TryCompile-8p3fxa'
         
         Run Build Command(s): D:/mingw64/bin/ninja.exe -v cmTC_d4235
         [1/2] C:\\PROGRA~2\\MICROS~4\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d4235.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_d4235.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_d4235.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~4\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d4235.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_d4235.exe /implib:cmTC_d4235.lib /pdb:cmTC_d4235.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+=======
+        Change Dir: 'D:/program/airhust/AirHUST_Vision_Tutorial/build/CMakeFiles/CMakeScratch/TryCompile-xl7otj'
+        
+        Run Build Command(s): D:/mingw64/bin/ninja.exe -v cmTC_081e7
+        [1/2] C:\\PROGRA~2\\MICROS~4\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_081e7.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_081e7.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_081e7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~4\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_081e7.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_081e7.exe /implib:cmTC_081e7.lib /pdb:cmTC_081e7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+>>>>>>> lab1_4_spin_around
         
       exitCode: 0
   -
@@ -1638,6 +1664,7 @@ events:
       Microsoft (R) Incremental Linker Version 14.50.35721.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
+<<<<<<< HEAD
 
 ---
 events:
@@ -2020,3 +2047,5 @@ events:
         - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/lab0"
 ...
+=======
+>>>>>>> lab1_4_spin_around
